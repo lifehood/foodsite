@@ -1,0 +1,276 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    margin-left: 90px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+a.nav-link:hover
+{
+ color:#198754 !important ;
+
+ transition: .9s !important;
+}
+a.nav-link::after
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: 50% 50%;
+    width: 100%;
+    height: 2px;
+    background:#198754;
+    transition: .4s !important;
+  
+}
+a.nav-link:hover::after{
+    transform: translateX(-50%) scaleX(1);
+}
+a.nav-link 
+{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.navbar-nav
+{
+    margin-left: auto;
+
+}
+.navbar-nav
+{
+    margin-right: 40px;
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+#header
+{
+    margin-top: 160px;
+  
+}
+
+#header h1{
+    font-size: 55px;
+    
+
+}
+
+.pera
+{
+ 
+ font-weight: 700;
+ font-size: 30px;
+margin: auto;
+ width: 290px;
+ text-align: left;
+ padding: 20px;
+
+ 
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    
+    
+  
+}
+#about-us{
+    margin-top: 85px;
+}
+#thead{
+    margin-top: 120px;
+}
+#headbtn{
+
+  margin-right: 140px;
+}
+.head-title{
+    width: 320px;
+    margin: auto;
+  padding-bottom: 45px;
+}
+
+.title-link{
+    text-decoration: none;
+ 
+    font-size: 20px;
+    text-align: center;
+ 
+    
+   
+}
+.about-us{
+    width: 320px;
+    margin: auto;
+}
+.img
+{
+    width: 400px;
+    
+}
+
+.cook-p
+{
+    margin: auto;
+    width: 320px;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+#survices{
+    margin-top: 85px;
+    padding: 40px;
+}
+.col-lg-4{
+  
+   
+    margin: auto;
+    text-align: center;
+    
+    
+}
+#shop
+{
+    margin-top: 85px;
+}
+.shop{
+    padding: 40px;
+   
+    
+}
+#shop-border{
+    border-left: 1px solid rgb(182, 178, 178);
+   
+    
+    
+}
+.contact-page 
+{
+    width: 100%;
+    height: 80vh;
+    background: url('./image/bg-contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shop-button
+{
+    margin-left: 280px;
+    border: none;
+    
+}
+#app
+{
+    margin-top: 85px;
+}
+#contact-us{
+    margin-top: 85px;
+   
+}
+.contact-form{
+  
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #fff;
+   
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #fd7e14;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+.footer
+{
+    margin-bottom: 70px;
+}
+#border-footer
+{
+    border-right:1px solid white ;
+}
+#myBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    color: white !important;
+    background: black !important;
+    border-radius: 100px;
+    padding: 5px;
+}
+#myBtn:hover {
+    background: black !important;
+    color: white !important;
+}
+@media(max-width :768px){
+    .form-group {
+        margin-top: -10px !important;
+    }
+    .contact-form 
+    {
+        margin-top: -10px !important;
+    }
+}
